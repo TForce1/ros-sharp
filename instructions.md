@@ -10,7 +10,7 @@
 
 <li>roslaunch rosbridge_server rosbridge_websocket.launch</li>
 <ol>
-    <li>the launch file is here: sudo vi /opt/ros/melodic/share/rosbridge_server/launch/rosbridge_websocket.launch</li>
+    <li>the launch file is here: sudo vi /opt/ros/< rosdistro >/share/rosbridge_server/launch/rosbridge_websocket.launch</li>
     <li>set the IP to the ip of the VM (not 127.0.0.1)</li>
     <li>might need to change the netwoek adapter of the VM from NAT to "custom" and choose VMnet8(NAT)</li>
 
