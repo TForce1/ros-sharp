@@ -3,7 +3,7 @@
 
 <li>install rosbridge_server</li>
 <ol>
-    <li>sudo apt-get install ros-<rosdistro>-rosbridge-suite</li>
+    <li>sudo apt-get install ros-< rosdistro >-rosbridge-suite</li>
     <li>source /opt/ros/<rosdistro>/setup.bash</li>
     <li>rospack profile</li>
 </ol>
